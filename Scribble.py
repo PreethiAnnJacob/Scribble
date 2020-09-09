@@ -18,9 +18,9 @@ class Scribble:
 
 	def __init__(self,**kwargs):
 		try:
-			#self.__root.wm_iconbitmap('download.png')
-			pi=PhotoImage(file='download.png')
-			self.__root.iconphoto(False,pi)
+			self.__root.wm_iconbitmap('F:\Python Programs\download.ico')#Abolute path for the sake of PyInstaller
+			#pi=PhotoImage(file='download.png')
+			#self.__root.iconphoto(False,pi)
 		except:
 			pass
 		try:
